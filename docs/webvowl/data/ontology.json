@@ -1,0 +1,1091 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11" ],
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/SpanishWineQuality",
+    "comments" : {
+      "undefined" : "@Author:\nAlejandro Albaladejo Beltran"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wine_Information",
+      "undefined" : "Wine_Information"
+    },
+    "subClasses" : [ "1", "2", "3", "4", "5" ],
+    "comment" : {
+      "undefined" : "Information about the price and rating of the wines"
+    },
+    "attributes" : [ "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "La_Mula_de_la_Quietud",
+      "undefined" : "La_Mula_de_la_Quietud"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "La_Mula_de_la_Quietud_2016"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type",
+      "undefined" : "Type"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Toro_Red"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Wine Variety"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Winery",
+      "undefined" : "Winery"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Quinta_de_la_Quietud",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Quinta_de_la_Quietud"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Pintia",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Pintia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Ordonez",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Ordonez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Dominio_del_Bendito",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Dominio_del_Bendito"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Matsu",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Matsu"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Teso_La_Monja"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Bodegas_San_Roman"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_Frontaura",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Bodegas_Frontaura"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodega_Numanthia",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Bodega_Numanthia"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Winery Name"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighRating",
+      "undefined" : "HighRating"
+    },
+    "comment" : {
+      "undefined" : "Rating score higher than 4.3"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighPrice",
+      "undefined" : "HighPrice"
+    },
+    "comment" : {
+      "undefined" : "Wine price over 100 Euros"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Alabaster",
+      "undefined" : "Alabaster"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Alabaster_2016"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tinto",
+      "undefined" : "Tinto"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Tinto_2013"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Termanthia",
+      "undefined" : "Termanthia"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Termanthia_2000"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "18",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Toro",
+      "undefined" : "Toro"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Toro_2004"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Victorino",
+      "undefined" : "Victorino"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Victorino_2013"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediumPrice"
+    },
+    "comment" : {
+      "undefined" : "MediumPrice"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LowRating",
+      "undefined" : "LowRating"
+    },
+    "comment" : {
+      "undefined" : "Rating score less than or equal to 4.3"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vatan_Tinta_de_Toro",
+      "undefined" : "Vatan_Tinta_de_Toro"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Vatan_Tinta_de_Toro_2018"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "El_Viejo",
+      "undefined" : "El_Viejo"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "El_Viejo_2019"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://es.dbpedia.org/page/Vino_tinto",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Wine",
+      "undefined" : "Red_Wine"
+    },
+    "subClasses" : [ "49", "6", "37", "35", "41", "39", "29", "27", "33", "31", "17", "15" ],
+    "comment" : {
+      "undefined" : "Red Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "El_Titan_del_Bendito",
+      "undefined" : "El_Titan_del_Bendito"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "El_Titan_del_Bendito_2015"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LowPrice",
+      "undefined" : "LowPrice"
+    },
+    "comment" : {
+      "undefined" : "Wine price below 50 euros"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cartago_Paraje_de_Pozo",
+      "undefined" : "Cartago_Paraje_de_Pozo"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Cartago_Paraje_de_Pozo_2014"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 1,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://oaei.ontologymatching.org/tests/102/onto.html#Region",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Region",
+      "undefined" : "Region"
+    },
+    "comment" : {
+      "undefined" : "Region of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Verdejo",
+      "undefined" : "Verdejo"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Verdejo_2017"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Numanthia",
+      "undefined" : "Numanthia"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013",
+      "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+      "labels" : {
+        "IRI-based" : "Numanthia__2013"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Name of the Wine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "7" ]
+  } ],
+  "property" : [ {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "63",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "10",
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/page/Year",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Year",
+      "undefined" : "Year"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Year in which the grape was harvested"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasGrape",
+      "undefined" : "hasGrape"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The variety of wine used to make the wine"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "12"
+  }, {
+    "range" : "7",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "7",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "18",
+    "subproperty" : [ "19", "20", "21", "22", "23", "24", "12" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn",
+    "inverse" : "25",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "IsAgedIn",
+      "undefined" : "GetsOld"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The wine is aged in a winery"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "22"
+  }, {
+    "range" : "7",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "7",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "7",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "7",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "7",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "7",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "7",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "7",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "Acidity",
+      "undefined" : "Acidity"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Has the following acidity rating"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "NumReview",
+      "undefined" : "NumReview"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Has number of reviews"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "Body",
+      "undefined" : "Body"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "has the following body rating"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "46"
+  }, {
+    "range" : "7",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "0",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "0",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn",
+    "inverse" : "12",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "IsMadeIn",
+      "undefined" : "IsElaboratedBy"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The variety of wine that the wine uses"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "HasWineries",
+      "undefined" : "HasWineries"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "57",
+    "comment" : {
+      "undefined" : "In a region there are wineries"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "ProducesAt",
+      "undefined" : "ProducesAt"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Winery produces wines"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "25"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "5",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation",
+    "inverse" : "19",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "HasWineInformation",
+      "undefined" : "HasWineInformation"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Information about the price and rating of the wine"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "23"
+  }, {
+    "domain" : "57",
+    "range" : "39",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "8",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "5",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "WineInformationTo",
+      "undefined" : "WineInformationTo"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "0",
+    "comment" : {
+      "undefined" : "Relevant information about the price and rating score of the wine"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "Price",
+      "undefined" : "Price"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "The wine has the following price in euros"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "18",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "Rating",
+      "undefined" : "Rating"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "Has Rating of"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "IsLocatedIn",
+      "undefined" : "IsLocatedAt"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Region where the winery is located"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "24"
+  } ]
+}
