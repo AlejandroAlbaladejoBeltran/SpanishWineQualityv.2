@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":Verdejo" ":HighRating" ":El_Viejo" ":Termanthia" ":LowRating" ":Cartago_Paraje_de_Pozo" ":Wine_Information" ":Tinto" ":Vatan_Tinta_de_Toro" ":Wine" ":MediumPrice" ":La_Mula_de_la_Quietud" ":LowPrice" ":El_Titan_del_Bendito" ":Victorino" ":Alabaster" ":HighPrice" ":Toro" ":Numanthia" ; /*classes style*/
+	":Termanthia" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":MediumPrice" -> ":Wine_Information" [ label = "rdfs:subClassOf" ];
+	":LowPrice" -> ":Wine_Information" [ label = "rdfs:subClassOf" ];
+	":Cartago_Paraje_de_Pozo" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":Verdejo" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":La_Mula_de_la_Quietud" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":LowRating" -> ":Wine_Information" [ label = "rdfs:subClassOf" ];
+	":Tinto" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":Alabaster" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":Vatan_Tinta_de_Toro" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":El_Viejo" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":Victorino" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":HighPrice" -> ":Wine_Information" [ label = "rdfs:subClassOf" ];
+	":Numanthia" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":Toro" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":El_Titan_del_Bendito" -> ":Wine" [ label = "rdfs:subClassOf" ];
+	":HighRating" -> ":Wine_Information" [ label = "rdfs:subClassOf" ];
+
+}
